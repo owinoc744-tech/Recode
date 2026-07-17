@@ -1,0 +1,6 @@
+ #!/bin/bash
+echo hello john | tr -d h
+echo  hello peter| tr -d  l,l,o|tr e- i
+echo 'hello liam' | tr 'a-z' 'A-Z'
+echo "apple apple apple" | sed 's/apple/orange/'
+echo hello beatrice |sed 's/beatrice/nicole/'

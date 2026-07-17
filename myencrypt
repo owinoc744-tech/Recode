@@ -1,3 +1,2 @@
-#!/bin/sh
-tr abcdefghijklmnopqrstuvwxyz \
-thequickbrownfxjmpsvalzydg
+#!/bin/bash
+echo  abcdefghijklmnopqrstuvwxyz 

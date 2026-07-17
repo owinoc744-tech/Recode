@@ -1,0 +1,9 @@
+#!/bin/bash
+echo  -e line1\nline2\nline3\ | sed  '2d'
+echo " world" | sed 'i hello'
+echo "hello john" | sed 'i hello mary'
+echo -e "1\n2\n3"| sed  '2p'
+echo "1\n2\n3\n4" | sed '3p'
+echo -e "1\n2\n3\n4" | sed -n '3p'
+echo  " hello students" | sed 'a hello teacher'
+echo  "my name is Emillia Pablo Escobar" |  sed 'a  àñd im the boss óf medillin cartel'

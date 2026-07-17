@@ -1,3 +1,2 @@
 #!/bin/sh
-tr thequickbrownfxjmpsvalzydg \
-abcdefghijklmnopqrstuvwxyz
+echo  abcdefghijklmnopqrstuvwxyz |tr abcdefghijklmnopqrstuvwxyz \thequickbrownfxjmpsvalzydg
