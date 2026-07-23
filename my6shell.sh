@@ -1,4 +1,4 @@
 #!/bin/bash
 # this is declaration of variables in shell
-name=luigi
+name=lisa
 echo $name
