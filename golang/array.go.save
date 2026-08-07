@@ -1,0 +1,17 @@
+// Arrays and Slices
+package main
+
+import "fmt"
+
+func main(){      
+array1 :=  [4]string {" gray","brown" ,"yellow" }
+var array2 [5]int =[5] int{1,2,3,4,5}
+
+slice := [] int {9,8,7,6,5,4,3}
+  
+
+fmt.Println(array1,len(array1))
+fmt.Println(array2,len(array2))
+fmt.Println(slice,len(slice))
+
+}
