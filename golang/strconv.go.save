@@ -40,8 +40,8 @@ w := "54.76"
 we,_ :=strconv.ParseFloat(w,64)
 fmt.Println(we + 31)
 fmt.Println(reflect.TypeOf(we))
-
-
+//ParseBool string to bool
+active:="true"
 
 
 

@@ -1,0 +1,3 @@
+module cameltosnakecase
+
+go 1.26.5
