@@ -16,13 +16,14 @@ fmt.Println(strings.ToUpper(name))
 fmt.Println(strings.ReplaceAll( name,"ford","ferdy"))
 fmt.Println("the index of ethan")
 fmt.Println(strings.Index(name,"ethan"))
-//  var num int = 9 3 7 2 8 4 2 5
-   na := "berry allan carl Dan Eric" 
+fmt.Println(strings.Split(name," "))
 
-fmt.Println("original int:",na)
-  fmt.Println(strings.Split(na," "))
-words := []string {"berry allan carl Dan Eric"}
- //fmt.Println(sort.Strings(na))
-fmt.Println(words,len(words)
- x :=sort.String(words)
+//  var num int = 9 3 7 2 8 4 2 5
+   na := []string{"Berry"," Allan","Carl","Dan"," Eric"} 
+fmt.Println("original:",na)
+sort.Strings(na)
+//fmt.Println(strings.Split(na," "))
+//words := []string {"berry allan carl Dan Eric"}
+fmt.Println(na)
 }
+
