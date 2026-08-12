@@ -39,11 +39,13 @@ fmt.Println(price)
 w := "54.76"
 we,_ :=strconv.ParseFloat(w,64)
 fmt.Println(we + 31)
-fmt.Println(reflect.TypeOf(we))
+	fmt.Println(reflect.TypeOf(we))
+// Parse bool
+fmt.Println(strconv.ParseBool("true"))
+fmt.Println(strconv.ParseBool("false"))
+fmt.Println(strconv.ParseBool("1"))
+fmt.Println(strconv.ParseBool("0"))
 
-
-
-
-
-
+ b,_:=strconv.ParseBool("true")
+fmt.Println(b)
 }
