@@ -7,6 +7,6 @@ import (
 func main(){
 
 data := os.ReadFile("hello.txt")
-fmt.Println(data)
+fmt.Println(os.ReadFile("hello.txt"))
 
 }
