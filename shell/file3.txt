@@ -1,0 +1,27 @@
+// find is used to find files while grep is used to find patterns inside files 
+allan 
+berry 
+carl
+derrick
+erick
+fin
+garry
+halland
+iniesta
+jerry
+kelly
+liam
+mobius
+noah
+opus
+papa
+Quin
+Randell
+Saviour
+Tod
+Ubuntu
+Von
+Wesley
+Xavo
+Yen
+Zerab
