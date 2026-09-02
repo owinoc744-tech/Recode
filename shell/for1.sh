@@ -1,8 +1,11 @@
 #!/bin/bash
+echo loop
+sleep 1
 
-for number in 1 2 3 4 5  
-
+for number in $(seq 1 5)  
+if number = 3;echo " going"
+else echo "okay"
+ fi
 do echo   "your number is $number " 
 done
-count = 6
-until c  
+   

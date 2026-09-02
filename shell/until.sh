@@ -1,9 +1,9 @@
 #!/bin/bash
-  count=10
-until [count=0]
+#  count=5
+until [[ count == 5 ]]
 do 
+count=$((count +1))
 echo 'Tminus '
-count=$((count -1))
 sleep 1
 done
 echo Blastoff

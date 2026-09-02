@@ -12,3 +12,4 @@ fmt.Println("substraction=",num-num2)
 fmt.Println("Multiplication=",num*num2)
 fmt.Println("Division=",num/num2)
 }
+
