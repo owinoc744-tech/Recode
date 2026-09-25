@@ -1,15 +1,14 @@
 package piscine
 
-func FirstWord(s string) string {
-	if s == "" {
-		return "\n"
-	}
+func FirstWord(s string )string{
+start := 0
+for start < len (s) && (s[start] == ' ' ||s[start] == '\t'){
+       start++
+    }
+end := start
+for end <len(s) && s[end] != ' '&&s[end] != '\t'{
+   end++
+   }
 
-	end := 0
-
-	for end < len(s) && s[end] != ' ' {
-		end++
-	}
-
-	return s[:end] + "\n"
+return s[start:end]+"\n"
 }
