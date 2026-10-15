@@ -7,7 +7,8 @@ func CanJump(input []uint) bool {
 
 	position := 0
 
-	for position < len(input)-1 {
+	for position < len(input)-2 {
+position++
 		position += int(input[position])
 
 		if position >= len(input) {
